@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="/rand100.css">
+
+    <script src='./func.js'></script>
+
+</head>
+
+<body onload="start()">
+
+    <h1>
+        Number Guesser
+    </h1>
+
+    <fieldset>
+        <p id="output" style="text-align: center">
+                I'm thinking of a number between 0 and 100. Guesser my number, and I'll tell if you are too high, too low,
+                or correct
+        </p>
+        <form>
+            <P style="text-align: center">
+                You Guesser : <input type="number" id='Guesser'>
+                <br><br>
+                <button type='button' id = 'check' onclick="CheckGuesser()">check your Guesser</button>
+                <button type='button' id="tryAgain" onclick="start()">try again</button>
+            </P>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
